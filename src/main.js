@@ -25,7 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     console.log(finalNotifier.notify("Сервер піднято!"));
 
-    console.log("\n=== ПР4: Додаткове завдання (OOP Валютний Адаптер) ===");
+    console.log("\n=== ПР4: Додаткове завдання ===");
     const cryptoAdapter = new CryptoAdapter(new CryptoAPI());
     const bankAdapter = new BankAdapter(new BankAPI());
 
